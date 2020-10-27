@@ -1,5 +1,6 @@
 # 2048 Project (My first ever software project)
-This repository concerns the 2048 game programmed in C++, using the terminal as a GUI. It is a simple project I had for my first year module of Software Engineering. However, the final solution is quite elegant for my first ever programming project.
+This repository contains the 2048 game programmed in C++, using the terminal as a GUI. It is a simple project I had for my first year module of Software Engineering. However, the final solution is quite elegant for my first ever programming project.
+
 ## 1. Initial Approach
 My first approach was to create a function for each direction (up, down, left, right). I managed to create the program very quickly but it was long, inefficient and ugly. 
 My second approach was to use only one function which would take as input the basic multidimensional vector(passed by reference) and two parameters that I would use inside the for loops in order to differentiate the counters according to the direction set by the user. This approach was far more complicated but far more efficient and clever. I managed to write the code but I didn’t manage to correct some bugs related to having a sequence like this (2 0 2 0) in a column.  
