@@ -1,5 +1,9 @@
-# 2048 Project (My first ever software project)
-This repository contains the 2048 game programmed in C++, using the terminal as a GUI. It is a simple project I had for my first year module of Software Engineering. However, the final solution is quite elegant for my first ever programming project.
+# 2048 Project (My first software project)
+This repository contains the 2048 game programmed in C++, using the terminal as a GUI. It is a simple project I had for my first year module of Software Engineering. 
+
+This repository is more of a memory archive than a production-ready solution. The program generally works, however it has never been professionally tested and is, therefore, I wouldn't be surprised if it had undetected bugs. Robust testing was a concept unknown to me at the time.
+
+That being said, I believe my final solution to the problem is quite elegant for the circumstances. It uses a matrix rotation to reduce code duplication by a factor of 4. The following documentation has been written a while ago and is no longer maintained. Please use the program **at your own risk**.
 
 ## 1. Initial Approach
 My first approach was to create a function for each direction (up, down, left, right). I managed to create the program very quickly but it was long, inefficient and ugly. 
